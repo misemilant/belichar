@@ -1,1 +1,0 @@
-Letakkan QRIS asli kamu di public/qris.png
