@@ -145,7 +145,7 @@ export default function Store() {
       <section className="payment">
         <div className="container payment-grid">
           <div><div className="eyebrow">PEMBAYARAN</div><h2>Pilih metode pembayaran yang <em>praktis.</em></h2><p>Setelah pembayaran, kirim bukti transfer kepada admin melalui WhatsApp agar pesanan dapat diproses.</p><div className="payment-card"><div><small>DANA</small><strong>{DANA_NUMBER}</strong></div><button onClick={copyDana}>{copied ? "Tersalin ✓" : "Salin Nomor"}</button></div></div>
-          <div className="qris-card"><div className="qris-image-wrap"><img src="/qris.png" alt="QRIS Pembayaran BELICHAR" /></div><h3>Bayar dengan QRIS</h3><p>Scan QRIS menggunakan aplikasi pembayaran yang mendukung QRIS.</p></div>
+          <div className="qris-card"><div className="qris-image-wrap"><img src="/qris.png" alt="QRIS Pembayaran BELICHAR" className="w-56 h-auto mx-auto object-contain"/></div><h3>Bayar dengan QRIS</h3><p>Scan QRIS menggunakan aplikasi pembayaran yang mendukung QRIS.</p></div>
         </div>
       </section>
 
