@@ -24,7 +24,7 @@ const characters: Product[] = [
     category: "character",
     price: 23000,
     image: "/character-placeholder.svg",
-    description: "Data Polos, Email bisa diganti.",
+    description: "Data Polos, Email bisa diganti dan Full Title.",
     details: ["QC 10–15 hari", "Saber 3 hari", "Kar 2 hari", "Medkit 3–4 hari", "Wig 3–6 hari", "Inventory 167/600"],
     badge: "TERSEDIA"
   },
@@ -34,7 +34,7 @@ const characters: Product[] = [
     category: "character",
     price: 35000,
     image: "/character-placeholder.svg",
-    description: "Data Polos, Email bisa diganti.",
+    description: "Data Polos, Email bisa diganti dan Full Title.",
     details: ["QC 50 hari", "T77 6 hari", "Saber 8 hari", "Kar 15 hari", "Medkit 42 hari", "Idol 34 hari", "Wig 26 hari", "Rappel Tarantula permanent", "Inventory 539/600"],
     badge: "TERSEDIA"
   }
